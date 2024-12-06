@@ -1,4 +1,3 @@
-# Generate README.md
 readme_content = """
 # Tesla Stock Price Prediction
 
