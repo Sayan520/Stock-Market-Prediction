@@ -40,3 +40,12 @@ This project builds a deep learning model using **LSTM (Long Short-Term Memory)*
 1. Install required libraries:
    ```bash
    pip install streamlit pandas numpy matplotlib scikit-learn tensorflow
+   
+## How to Prepare and Run the App
+
+2. Save the dataset (`TSLA Training.csv`) in the appropriate directory.
+
+3. Run the Streamlit app:
+   ```bash
+   streamlit run app.py
+
