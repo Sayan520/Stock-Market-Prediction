@@ -1,4 +1,4 @@
-# Tesla Stock Price Prediction
+# Stock Price Prediction
 
 This project builds a deep learning model using **LSTM (Long Short-Term Memory)** to predict Tesla's stock prices and visualize the predictions using **Streamlit**, a Python library for creating interactive web applications.
 
