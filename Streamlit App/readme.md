@@ -27,7 +27,6 @@ This Streamlit web app provides an interactive interface to visualize and predic
 🛠️ Installation & Setup
 
  1️⃣ Install Dependencies
-    ```bash
     
     pip install streamlit pandas numpy matplotlib scikit-learn tensorflow
    
