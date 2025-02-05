@@ -41,9 +41,5 @@ Save the dataset (`TSLA Training.csv`) in the appropriate directory.
    ```bash
      streamlit run app.py
 
-   cd..
-   conda init
-   conda activate streamlit-env
-   python -m streamlit run app.py (if uses env)
-
+ 
 
