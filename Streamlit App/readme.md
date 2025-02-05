@@ -28,14 +28,16 @@ This Streamlit web app provides an interactive interface to visualize and predic
 
  1️⃣ Install Dependencies
     ```bash
-   pip install streamlit pandas numpy matplotlib scikit-learn tensorflow
+    
+    pip install streamlit pandas numpy matplotlib scikit-learn tensorflow
    
-## How to Prepare and Run the App
+2️⃣ Download the Dataset
 
 Save the dataset (`TSLA Training.csv`) in the appropriate directory.
 
-Run the Streamlit app:
+3️⃣ Run the Streamlit App
+
    ```bash
-   streamlit run app.py
+     streamlit run app.py
 
 
