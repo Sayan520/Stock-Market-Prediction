@@ -18,6 +18,7 @@ This Streamlit web app provides an interactive interface to visualize and predic
      - **Mean Absolute Error (MAE)**.
      - **Mean Squared Error (MSE)**.
      - **R2 Score**.
+
    - Provides graphical representations:
      - Line chart for predicted vs. actual prices.
      - Scatter plot to visualize the correlation between predictions and actual values.
