@@ -1,12 +1,6 @@
 # Stock Market Prediction (Streamlit App)
 
-<<<<<<< HEAD
-![Stock Screenshot](stock.jpg)
-
-This project builds a deep learning model using **LSTM (Long Short-Term Memory)** to predict Tesla's stock prices and visualize the predictions using **Streamlit**, a Python library for creating interactive web applications.
-=======
 ![Streamlit Screenshot](Streamlit.jpg)
->>>>>>> 9e62656f21235465db32aab9221b5ce19b9af208
 
 This Streamlit web app provides an interactive interface to visualize and predict Tesla's stock prices using a deep learning model built with LSTM (Long Short-Term Memory).
 
