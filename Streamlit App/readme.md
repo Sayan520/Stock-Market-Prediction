@@ -1,4 +1,4 @@
-# Stock Price Prediction (Streamlit App)
+# Stock Market Prediction (Streamlit App)
 
 This Streamlit web app provides an interactive interface to visualize and predict Tesla's stock prices using a deep learning model built with LSTM (Long Short-Term Memory).
 
