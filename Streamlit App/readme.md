@@ -40,6 +40,3 @@ Save the dataset (`TSLA Training.csv`) in the appropriate directory.
 
    ```bash
      streamlit run app.py
-
- 
-
