@@ -1,0 +1,7 @@
+cd..
+conda init
+conda activate streamlit-env
+python -m streamlit run app.py
+
+streamlit-env
+  
