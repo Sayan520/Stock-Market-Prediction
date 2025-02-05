@@ -1,38 +1,38 @@
-# Tesla Stock Price Prediction
+# Stock Market Prediction (Streamlit App)
 
+<<<<<<< HEAD
 ![Stock Screenshot](stock.jpg)
 
 This project builds a deep learning model using **LSTM (Long Short-Term Memory)** to predict Tesla's stock prices and visualize the predictions using **Streamlit**, a Python library for creating interactive web applications.
+=======
+![Streamlit Screenshot](Streamlit.jpg)
+>>>>>>> 9e62656f21235465db32aab9221b5ce19b9af208
 
-## Features
+This Streamlit web app provides an interactive interface to visualize and predict Tesla's stock prices using a deep learning model built with LSTM (Long Short-Term Memory).
 
-1. **Data Preprocessing:**
-   - Loads Tesla's historical stock price data from a CSV file.
-   - Splits the data into training and testing sets (70% for training and 30% for testing).
-   - Scales the data using **MinMaxScaler** for better performance with the LSTM model.
+## 🚀 Features
 
-2. **Model Architecture:**
-   - An LSTM-based neural network with:
-     - Four stacked LSTM layers of varying units.
-     - Dropout layers to prevent overfitting.
-     - A Dense output layer for single-value predictions.
-   - Optimized using the **Adam optimizer** with **mean squared error (MSE)** as the loss function.
+📊 Data Visualization
+   - Displays Tesla's historical closing prices.
+   - Plots **100-day** and **200-day** moving averages for trend analysis.
 
-3. **Model Evaluation:**
+🔮 Stock Price Prediction
+   - Uses an **LSTM**-based deep learning model to predict stock prices.
+   - Allows users to input the number of future days for prediction.
+   - Visualizes predicted vs. actual stock prices with line charts
+
+📉 Model Evaluation
    - Predictions on test data are compared with actual prices using metrics like:
      - **Mean Absolute Error (MAE)**.
      - **Mean Squared Error (MSE)**.
      - **R2 Score**.
-   - Visualization of results using:
+
+   - Provides graphical representations:
      - Line chart for predicted vs. actual prices.
      - Scatter plot to visualize the correlation between predictions and actual values.
      - R2 score represented as a horizontal bar chart.
 
-4. **Interactive Streamlit Interface:**
-   - Displays Tesla's closing price trends.
-   - Evaluates and visualizes model performance.
-   - Allows users to input the number of future days for prediction.
-   - Shows the predicted future stock prices using a line chart.
+🛠️ Installation & Setup
 
 5. **Moving Average Analysis:**
    - Computes and visualizes the **100-day** and **200-day moving averages** for trend comparison.
@@ -43,12 +43,11 @@ This project builds a deep learning model using **LSTM (Long Short-Term Memory)*
    ```bash
    pip install streamlit pandas numpy matplotlib scikit-learn tensorflow
    
-## How to Prepare and Run the App
+2️⃣ Download the Dataset
 
-2. Save the dataset (`TSLA Training.csv`) in the appropriate directory.
+Save the dataset (`TSLA Training.csv`) in the appropriate directory.
 
-3. Run the Streamlit app:
+3️⃣ Run the Streamlit App
+
    ```bash
-   streamlit run app.py
-
-
+     streamlit run app.py
