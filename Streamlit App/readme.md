@@ -9,9 +9,9 @@ This Streamlit web app provides an interactive interface to visualize and predic
    - Plots **100-day** and **200-day** moving averages for trend analysis.
 
 🔮 Stock Price Prediction
-     - Uses an **LSTM**-based deep learning model to predict stock prices.
-     - Allows users to input the number of future days for prediction.
-     - Visualizes predicted vs. actual stock prices with line charts
+   - Uses an **LSTM**-based deep learning model to predict stock prices.
+   - Allows users to input the number of future days for prediction.
+   - Visualizes predicted vs. actual stock prices with line charts
 
 📉 Model Evaluation
    - Predictions on test data are compared with actual prices using metrics like:
