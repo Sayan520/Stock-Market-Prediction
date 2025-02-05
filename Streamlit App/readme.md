@@ -37,6 +37,10 @@ This Streamlit web app provides an interactive interface to visualize and predic
 Save the dataset (`TSLA Training.csv`) in the appropriate directory.
 
 3️⃣ Run the Streamlit App
+   cd..
+   conda init
+   conda activate streamlit-env
+   python -m streamlit run app.py (if uses env)
 
    ```bash
      streamlit run app.py
